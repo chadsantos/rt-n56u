@@ -27,7 +27,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621-usb"
-            targets: "XY-C1 JCG-836PRO JCG-AC860M JCG-Y2 DIR-882 A3004NS MSG1500 WR1200JS MI-R3G NEWIFI3 B70"
+            targets: "NEWIFI3"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
